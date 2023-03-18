@@ -25,8 +25,8 @@
 }
 .card:hover .face.face1 {
   transform: translateY(0);
-  box-shadow: inset 0 0 60px black, inset 20px 0 80px orange,
-    inset -20px 0 80px orange, inset 20px 0 300px orange,
+  box-shadow: inset 0 0 60px rgb(74, 67, 67), inset 20px 0 80px orange,
+    inset -20px 0 80px hwb(39 0% 0%), inset 20px 0 300px orange,
     inset -20px 0 300px orange, 0 0 50px #fff, -10px 0 80px orange,
     10px 0 80px orange;
 }
@@ -55,7 +55,7 @@
 }
 .face.face2 {
   position: relative;
-  background: whitesmoke;
+  background: rgba(158, 68, 8, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,17 +76,14 @@
 }
 .team-link {
   text-decoration: none;
-  color: black;
+  // color: black;
   box-sizing: border-box;
-  outline: 1px dashed #333;
   padding: 10px;
   margin: 15px 0 0;
   display: inline-block;
 }
 .team-link:hover {
-  background: #333;
-  color: whitesmoke;
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 .info-wrap {
