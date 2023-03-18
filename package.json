@@ -5,17 +5,17 @@
   "homepage": "https://github.com/SoloviovO/ReacTOR",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /JSnake/"
+    "build": "parcel build src/*.html --public-url /ReacTOR/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SoloviovO/JSnake"
+    "url": "git+https://github.com/SoloviovO/ReacTOR"
   },
   "keywords": [],
   "author": "Oleksandr Soloviov <soloviov.o.m@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SoloviovO/JSnake/issues"
+    "url": "https://github.com/SoloviovO/ReacTOR/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
