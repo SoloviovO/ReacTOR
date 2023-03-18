@@ -1,0 +1,70 @@
+.wrapper-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  box-sizing: border-box;
+}
+
+.box-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.title-ask {
+  font-size: 52px;
+  color: orange;
+  letter-spacing: 1px;
+  margin-top: 115px;
+}
+
+.btn-ask {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 120px;
+  font-weight: bold;
+  height: 50px;
+  transition: 0.08s;
+  border: none;
+  background: $blueLight;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 40px 25px;
+  color: #e5cfcf;
+  background: linear-gradient(
+    90deg,
+    rgb(20, 20, 19),
+    orange,
+    rgb(20, 20, 19),
+    orange,
+    rgb(20, 20, 19),
+    orange,
+    rgb(20, 20, 19),
+    orange,
+    rgb(20, 20, 19)
+  );
+  background-size: 800%;
+  border-radius: 20px;
+  transform: translate(0%, -50%);
+}
+
+.book-box {
+  position: absolute;
+  width: 450px;
+}
+
+.book-text {
+  font-style: italic;
+  font-size: 24px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.book-author {
+  font-size: 18px;
+  color: orange;
+  text-align: end;
+}
