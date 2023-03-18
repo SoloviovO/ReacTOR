@@ -38,7 +38,11 @@ body {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
-  background-image: url(../images/rad.jpg);
+  background-image: linear-gradient(
+      rgba(60, 60, 60, 0.4),
+      rgba(60, 60, 60, 0.4)
+    ),
+    url(../images/rad.jpg);
   background-size: 100% 110%;
   overflow: hidden;
 }
@@ -221,8 +225,6 @@ body {
   }
 }
 
-/* ---------- Fog ---------- */
-
 #foglayer_01,
 #foglayer_02,
 #foglayer_03 {
@@ -241,30 +243,23 @@ body {
   width: 50%;
 }
 #foglayer_01 {
-  -webkit-animation: foglayer_01_opacity 5s linear infinite,
-    foglayer_moveme 7s linear infinite;
-  -moz-animation: foglayer_01_opacity 5s linear infinite,
-    foglayer_moveme 7s linear infinite;
-  animation: foglayer_01_opacity 5s linear infinite,
-    foglayer_moveme 7s linear infinite;
+  -webkit-animation: foglayer_01_opacity 8s linear infinite,
+    foglayer_moveme 13s linear infinite;
+  -moz-animation: foglayer_01_opacity 8s linear infinite,
+    foglayer_moveme 13s linear infinite;
+  animation: foglayer_01_opacity 8s linear infinite,
+    foglayer_moveme 13s linear infinite;
 }
 #foglayer_02,
 #foglayer_03 {
-  -webkit-animation: foglayer_02_opacity 7s linear infinite,
-    foglayer_moveme 5s linear infinite;
-  -moz-animation: foglayer_02_opacity 7s linear infinite,
-    foglayer_moveme 5s linear infinite;
-  animation: foglayer_02_opacity 7s linear infinite,
-    foglayer_moveme 5s linear infinite;
+  -webkit-animation: foglayer_02_opacity 19s linear infinite,
+    foglayer_moveme 11s linear infinite;
+  -moz-animation: foglayer_02_opacity 19s linear infinite,
+    foglayer_moveme 11s linear infinite;
+  animation: foglayer_02_opacity 19s linear infinite,
+    foglayer_moveme 11s linear infinite;
 }
 
-/* ---------- Moving Fog ---------- */
-/*
-  'size: cover' || 'size: 100%'; results remain the same
-  'attachment: scroll' can be added or removed; results remain the same
-  'attachment: fixed' causing unexpected results in Chrome
-  'repeat-x' || 'no-repeat'; results remain the same
-*/
 #foglayer_01 .image01,
 #foglayer_01 .image02 {
   background: url('https://raw.githubusercontent.com/danielstuart14/CSS_FOG_ANIMATION/master/fog1.png')
