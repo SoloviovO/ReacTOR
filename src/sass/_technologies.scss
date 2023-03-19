@@ -1,5 +1,5 @@
 .tech-wrapp {
-  padding: 100px 250px;
+  padding: 20px 120px;
 }
 
 .icons {
@@ -21,19 +21,27 @@
 #javascript,
 #axios,
 #node-js,
-#sass {
+#sass,
+#redux,
+#netlify,
+#ant {
   animation-delay: 500ms;
 }
 #git,
 #css,
 #github,
-#parcel,
-#vscode {
+#webpack,
+#vscode,
+#material {
   animation-delay: 1500ms;
 }
 #api,
 #figma,
-#html {
+#html,
+#react,
+#formik,
+#chartjs,
+#babel {
   animation-delay: 2500ms;
 }
 @keyframes animated {
